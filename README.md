@@ -1,2 +1,1 @@
-# wearos-crypto-tracker
-Minimalist cryptocurrency price tracker for Wear OS. Real-time market data on your wrist.
+QuantTicker is a minimalist Wear OS app delivering real-time Quant ($QNT) prices from CoinGecko directly on your wrist.
