@@ -41,7 +41,7 @@ object IsowatchTokens {
     val AmbientNegative = Color(0xFFAAAAAA)
 
     // === Typography sizes ===
-    val HeroPrice = 38.sp
+    val HeroPrice = 30.sp
     val BigPrice = 22.sp
     val MediumLabel = 14.sp
     val ChangePercent = 13.sp

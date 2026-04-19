@@ -7,12 +7,10 @@ import kotlin.math.abs
  * we use fixed decimal places per magnitude so the digit columns align across refreshes.
  */
 fun formatPrice(price: Double, currency: Currency): String {
-    val symbol = if (currency == Currency.USD) "$" else "CA$"
+    val symbol = "$"
     return when {
         price >= 1000 -> "$symbol${"%,.0f".format(price)}"
-        price >= 1 -> "$symbol${"%.2f".format(price)}"
-        price >= 0.01 -> "$symbol${"%.4f".format(price)}"
-        else -> "$symbol${"%.6f".format(price)}"
+        else          -> "$symbol${"%.2f".format(price)}"
     }
 }
 
